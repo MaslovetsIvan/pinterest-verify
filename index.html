@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Pinterest Domain Verification Tag -->
     <meta name="p:domain_verify" content="ee665e05110d6e46fa11918bec0b70be"/>
-    <title>Worlds Scrapbook | Vintage Digital Scrapbooking & Journaling Supplies</title>
+    <title>Worlds Scrapbook | Vintage Digital Scrapbooking Supplies</title>
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
@@ -48,7 +45,7 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--border-color);
-            background: rgba(251, 249, 245, 0.9);
+            background: rgba(251, 249, 245, 0.95);
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
@@ -81,7 +78,6 @@
             text-decoration: none;
             font-size: 13px;
             font-weight: 600;
-            letter-spacing: 0.5px;
             transition: all 0.3s ease;
             display: inline-flex;
             align-items: center;
@@ -93,11 +89,10 @@
             color: #fff;
         }
 
-        /* Hero Section */
         .hero {
             text-align: center;
-            padding: 80px 20px 60px;
-            max-width: 800px;
+            padding: 70px 20px 50px;
+            max-width: 850px;
             margin: 0 auto;
         }
 
@@ -112,17 +107,17 @@
 
         .hero h1 {
             font-family: 'Cormorant Garamond', serif;
-            font-size: 56px;
+            font-size: 52px;
             font-weight: 600;
             line-height: 1.15;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             color: var(--text-primary);
         }
 
         .hero p {
             font-size: 16px;
             color: var(--text-secondary);
-            margin-bottom: 35px;
+            margin-bottom: 30px;
             font-weight: 300;
         }
 
@@ -133,11 +128,10 @@
             background-color: var(--accent-color);
             color: #ffffff;
             text-decoration: none;
-            padding: 16px 38px;
+            padding: 16px 36px;
             border-radius: 40px;
             font-size: 15px;
             font-weight: 500;
-            letter-spacing: 0.5px;
             box-shadow: 0 4px 20px rgba(139, 90, 43, 0.25);
             transition: all 0.3s ease;
         }
@@ -145,50 +139,43 @@
         .cta-button:hover {
             background-color: var(--accent-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 25px rgba(139, 90, 43, 0.35);
         }
 
-        /* Features Section */
         .features {
             max-width: 1100px;
-            margin: 40px auto 80px;
+            margin: 30px auto 60px;
             padding: 0 20px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            gap: 25px;
         }
 
         .feature-card {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 16px;
-            padding: 40px 30px;
+            padding: 35px 25px;
             text-align: center;
             box-shadow: var(--shadow);
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
         }
 
         .feature-icon {
-            width: 60px;
-            height: 60px;
+            width: 55px;
+            height: 55px;
             background: var(--bg-color);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 20px;
+            margin: 0 auto 15px;
             color: var(--accent-color);
-            font-size: 24px;
+            font-size: 22px;
         }
 
         .feature-card h3 {
             font-family: 'Cormorant Garamond', serif;
-            font-size: 26px;
-            margin-bottom: 12px;
+            font-size: 24px;
+            margin-bottom: 10px;
         }
 
         .feature-card p {
@@ -197,18 +184,49 @@
             font-weight: 300;
         }
 
-        /* Footer */
-        footer {
-            margin-top: auto;
-            background: #fff;
+        /* Policy Section */
+        .policy-section {
+            background: #ffffff;
             border-top: 1px solid var(--border-color);
-            padding: 40px 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding: 60px 20px;
+        }
+
+        .policy-container {
+            max-width: 850px;
+            margin: 0 auto;
+            color: var(--text-secondary);
+        }
+
+        .policy-container h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 36px;
+            color: var(--text-primary);
+            margin-bottom: 20px;
             text-align: center;
         }
 
-        .footer-content {
-            max-width: 800px;
-            margin: 0 auto;
+        .policy-container h4 {
+            color: var(--text-primary);
+            margin: 25px 0 10px;
+            font-size: 16px;
+        }
+
+        .policy-container p, .policy-container ul {
+            font-size: 14px;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+
+        .policy-container ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            margin-top: auto;
+            background: var(--bg-color);
+            padding: 40px 20px;
+            text-align: center;
         }
 
         .footer-links {
@@ -223,7 +241,6 @@
             color: var(--text-secondary);
             text-decoration: none;
             font-size: 13px;
-            transition: color 0.2s ease;
         }
 
         .footer-links a:hover {
@@ -234,24 +251,12 @@
             font-size: 12px;
             color: #a09890;
         }
-
-        @media (max-width: 768px) {
-            header {
-                padding: 15px 20px;
-            }
-            .hero h1 {
-                font-size: 38px;
-            }
-            .hero {
-                padding: 50px 20px 40px;
-            }
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="#" class="brand-logo">
+        <a href="/" class="brand-logo">
             <i class="fa-solid fa-book-bookmark"></i>
             Worlds Scrapbook
         </a>
@@ -263,56 +268,65 @@
     <main>
         <section class="hero">
             <p class="hero-subtitle">Digital Ephemera & Aesthetic Papers</p>
-            <h1>Craft Beautiful Stories with Vintage Journaling Kits</h1>
-            <p>Discover carefully curated printable scrapbook papers, junk journal kits, vintage ephemera tags, and creative crafting elements designed for memory keepers and journal enthusiasts.</p>
+            <h1>Vintage Digital Scrapbooking & Journaling Supplies</h1>
+            <p>High-resolution printable scrapbook paper packs, vintage ephemera collections, and junk journal craft kits created for passionate artisans and memory keepers.</p>
             
             <a href="https://www.etsy.com/shop/WorldsScrapbook" target="_blank" rel="noopener" class="cta-button">
-                <span>Explore Official Etsy Store</span>
+                <span>Shop on Etsy</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </a>
         </section>
 
         <section class="features">
             <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fa-solid fa-download"></i>
-                </div>
-                <h3>Instant Digital Downloads</h3>
-                <p>High-resolution 300 DPI PDF & JPG files ready for immediate printing at home or local print shop.</p>
+                <div class="feature-icon"><i class="fa-solid fa-download"></i></div>
+                <h3>Instant Digital Download</h3>
+                <p>300 DPI high-quality printable PDF & JPG assets ready for immediate creative projects.</p>
             </div>
-
             <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                </div>
-                <h3>Authentic Vintage Aesthetic</h3>
-                <p>Authentic antique textures, delicate floral patterns, handwritten script letters, and aged paper elements.</p>
+                <div class="feature-icon"><i class="fa-solid fa-palette"></i></div>
+                <h3>Artisan Vintage Style</h3>
+                <p>Aged parchment textures, antique botanical florals, vintage maps, and nostalgic scripts.</p>
             </div>
-
             <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
+                <div class="feature-icon"><i class="fa-solid fa-heart"></i></div>
                 <h3>Commercial & Personal Use</h3>
-                <p>Perfect for scrapbooking, junk journals, planners, gift tags, decoupage, collage art, and handmade crafts.</p>
+                <p>Designed for journal pages, card making, planners, and bespoke handmade crafts.</p>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section with Anchor -->
+        <section id="privacy" class="policy-section">
+            <div class="policy-container">
+                <h2>Privacy Policy</h2>
+                <p><em>Last updated: August 18, 2026</em></p>
+                
+                <p>Worlds Scrapbook ("we", "our", or "us") operates worldsscrapbook.space. This Privacy Policy describes how we collect, use, and protect your information when you visit our website or interact with our integrated services, including Pinterest API tools.</p>
+
+                <h4>1. Information Collection and Use</h4>
+                <p>We only collect information necessary to provide and improve our services, manage our digital product catalogs, and publish visual content. We do not sell, rent, or trade your personal data to any third parties.</p>
+
+                <h4>2. Pinterest API Integration & Authentication</h4>
+                <p>Our application uses official Pinterest API v5 integration solely to manage and publish pins and product collections for Worlds Scrapbook. Authentication is processed securely via Pinterest OAuth 2.0. We do not store or share your Pinterest credentials or private user data.</p>
+
+                <h4>3. Third-Party Services</h4>
+                <p>Our website links to our verified official Etsy storefront (WorldsScrapbook) and uses GitHub Pages for hosting. These third parties maintain their own privacy policies governing data handling.</p>
+
+                <h4>4. Data Security & Retention</h4>
+                <p>We implement standard security measures to protect API tokens and configuration settings. User authorization can be revoked at any time directly through your Pinterest Account Settings.</p>
+
+                <h4>5. Contact Us</h4>
+                <p>If you have any questions regarding this Privacy Policy or our API usage, please contact us at: <strong>worldsscrapbook@gmail.com</strong></p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <a href="#" class="brand-logo" style="justify-content: center; margin-bottom: 10px;">
-                <i class="fa-solid fa-book-bookmark"></i>
-                Worlds Scrapbook
-            </a>
-            <p style="font-size: 13px; color: var(--text-secondary);">Curated Digital Art & Crafting Supplies</p>
-            
             <ul class="footer-links">
-                <li><a href="https://www.etsy.com/shop/WorldsScrapbook" target="_blank" rel="noopener">Etsy Shop</a></li>
+                <li><a href="https://www.etsy.com/shop/WorldsScrapbook" target="_blank" rel="noopener">Etsy Store</a></li>
                 <li><a href="#privacy">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
             </ul>
-
             <p class="copyright">&copy; 2026 Worlds Scrapbook. All rights reserved.</p>
         </div>
     </footer>
@@ -321,4 +335,15 @@
 </html>
 ```eof
 
-Обнови этим содержимым файл `index.html` на GitHub — теперь твой сайт выглядит как готовый дизайнерский магазин!
+---
+
+### Шаг 2. Как записать 30-секундный идеальный ролик (OAuth Demo)
+
+Модератор прикрепила скриншот окна OAuth (`[pinterest.com/oauth/](https://pinterest.com/oauth/)?...`) — они хотят увидеть именно процесс авторизации.
+
+**Сценарий видео на 30–40 секунд:**
+
+1. **Включи запись экрана** (Cmd + Shift + 5 на Mac).
+2. **В браузере** открой адресную строку и перейди по твоей OAuth-ссылке авторизации:
+   ```text
+   https://www.pinterest.com/oauth/?client_id=1602349&redirect_uri=https://worldsscrapbook.space/&response_type=code&scope=boards:read,boards:write,pins:read,pins:write,user_accounts:read
